@@ -21,11 +21,11 @@ public class MainActivity extends AppCompatActivity {
     private Toolbar toolbar;
     private TabLayout tabLayout;
     private ViewPager viewPager;
-    private int[] tabIcons = {
-            R.mipmap.cross,
-            R.mipmap.fb,
-            R.mipmap.twitter
-    };
+//    private int[] tabIcons = {
+//            R.mipmap.cross,
+//            R.mipmap.fb,
+//            R.mipmap.twitter
+//    };
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
