@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/btn_custom">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="34dp"
+        android:id="@+id/img1"
+        android:gravity="center_horizontal"
+        android:layout_centerInParent="true"
+        android:src="@mipmap/cross"/>
+    <TextView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tab_one"
+        android:layout_toRightOf="@+id/img1"
+        android:text="تجربة"
+        android:gravity="center_horizontal"
+        android:layout_centerInParent="true"
+        android:textColor="@color/colorPrimaryDark"/>
+</RelativeLayout>
